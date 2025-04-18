@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     axios.get("https://fakestoreapi.com/products").then((res) => {
       setData(res.data);
-    });
+    })
   }, []);
   const addToBasket = (item) => {
     let basket = JSON.parse(localStorage.getItem("basket")) || [];

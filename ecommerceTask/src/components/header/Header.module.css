@@ -1,0 +1,11 @@
+.btns *{
+border: none;
+width: 32%;
+border-right: 1px solid #cecece;
+border-left: 1px solid #cecece;
+}
+.btns{
+    display: flex;
+justify-content: space-around;
+width: 100%;
+}
