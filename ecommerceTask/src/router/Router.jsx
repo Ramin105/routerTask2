@@ -34,7 +34,7 @@ export default Router;
 //     Component: Layout,
 //     children: [
 //       {
-//         path: "/home",
+//         path: "/",
 //         Component: Home,
 //       },
 //       {
